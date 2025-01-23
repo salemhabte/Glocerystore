@@ -42,7 +42,7 @@ class _DetailPageState extends State<DetailPage> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Product Image
+          
           Container(
             height: 200,
             width: double.infinity,
@@ -68,11 +68,11 @@ class _DetailPageState extends State<DetailPage> {
             child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Product Title
+                 
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      // Product title
+                      
                       Text(
                         widget.product['title'],
                         style: const TextStyle(
@@ -81,7 +81,7 @@ class _DetailPageState extends State<DetailPage> {
                           color: Colors.white,
                         ),
                       ),
-                      // Quantity row
+                  
                       Row(
                         children: [
                           IconButton(
@@ -107,7 +107,7 @@ class _DetailPageState extends State<DetailPage> {
  
                   
           const SizedBox(height: 8),
-                  // Rating and Review Count
+                  
           Row(
                     children: [
                       Icon(Icons.star, color: Colors.yellow[600], size: 20),
@@ -119,7 +119,7 @@ class _DetailPageState extends State<DetailPage> {
                     ],
                   ),
                   const SizedBox(height: 16),
-                  // Description
+                 
                   const Text(
                     "Description:",
                     style: TextStyle(
@@ -139,7 +139,7 @@ class _DetailPageState extends State<DetailPage> {
               ),
             ),
           ),
-          // Footer with Price and Add to Cart Button
+          
           Container(
             color: Colors.white,
             padding: const EdgeInsets.all(16.0),

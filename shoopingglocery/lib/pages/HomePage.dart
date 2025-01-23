@@ -5,6 +5,8 @@ import 'package:gloceryshoping/Auth/Authservice.dart';
 // import '../pages/detail.dart';
 import 'detail.dart';
 import 'cart.dart';
+import 'package:provider/provider.dart';
+import 'cart_model.dart';
 class ProductPage extends StatefulWidget {
   const ProductPage({super.key});
 
@@ -184,13 +186,7 @@ class _ProductPageState extends State<ProductPage> {
             style: const TextStyle(
                 fontSize: 18, fontWeight: FontWeight.bold, color: Colors.green),
           ),
-          TextButton(
-            onPressed: () {},
-            child: const Text(
-              "See All",
-              style: TextStyle(color: Colors.grey),
-            ),
-          ),
+        
         ],
       ),
     );
@@ -325,7 +321,14 @@ class _ProductPageState extends State<ProductPage> {
                         child: IconButton(
                           icon: const Icon(Icons.shopping_cart_outlined,
                               color: Colors.white),
-                          onPressed: () {},
+                           onPressed: () {
+                    Provider.of<CartModel>(context, listen: false)
+                        .addToCart(products[index], 1);
+
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(content: Text('${products[index]['title']} added to cart')),
+                    );
+                  },
                         ),
                       ),
                     ),

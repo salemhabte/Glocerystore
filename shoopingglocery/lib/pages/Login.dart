@@ -145,7 +145,7 @@ class _LoginState extends State<Login> {
                                   if (value.length < 6) {
                                     return "Password must be at least 6 characters";
                                   }
-                                  return null;
+                                return null;
                                 },
                               ),
                               const SizedBox(height: 20),

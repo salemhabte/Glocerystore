@@ -6,13 +6,13 @@ class CartModel extends ChangeNotifier {
   List<Map<String, dynamic>> get cartItems => _cartItems;
 
   void addToCart(Map<String, dynamic> product, int quantity) {
-    // Check if the product already exists in the cart
+    
     int index = _cartItems.indexWhere((item) => item['id'] == product['id']);
     if (index >= 0) {
-      // If the product exists, update its quantity
+      
       _cartItems[index]['quantity'] += quantity;
     } else {
-      // Otherwise, add the product with its quantity
+     
       _cartItems.add({
         ...product,
         'quantity': quantity,

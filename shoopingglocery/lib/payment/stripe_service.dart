@@ -1,7 +1,9 @@
 import 'package:dio/dio.dart';
+import 'package:gloceryshoping/database/payment.dart';
 import "./consts.dart";
 import 'package:flutter_stripe/flutter_stripe.dart';
 class StripeService {
+  final pay = Paymentdb();
 StripeService._();
 static final StripeService instance = StripeService._();
 
@@ -18,6 +20,7 @@ await Stripe.instance.initPaymentSheet(
   ),
 );
 await _processPayment();
+await pay.add(totalAmount);
   return true;
 
   } catch (e) {

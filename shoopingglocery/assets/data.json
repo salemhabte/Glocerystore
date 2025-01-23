@@ -26,7 +26,7 @@
       "title": "Oreo",
       "description": " Quick and convenient bites, snacks are perfect for curbing hunger, ranging from salty to sweet indulgences.",
       "price": 20,
-      "explain": "Fresh And Delicious Fruits",
+      "explain": "Fresh And Delicious Cookies",
       "image": "assets/images/snak.jpg",
       "rating": 4.8,
       "reviews":500
@@ -36,7 +36,7 @@
       "title": "veggie",
       "description": "Crisp, colorful, and full of nutrients, vegetables are essential for a balanced diet and overall well-being.",
       "price": 20,
-      "explain": "Fresh And Delicious Fruits",
+      "explain": "Fresh And Delicious Veggies",
       "image": "assets/images/veggie.jpg",
       "rating": 4.7,
       "reviews":600
@@ -46,7 +46,7 @@
       "title": "makeup",
       "description": "Enhance your natural beauty with vibrant cosmetics, designed to bring confidence and creativity to your look.",
       "price": 20,
-      "explain": "Fresh And Delicious Fruits",
+      "explain": "Long Lasting Cosmetics",
       "image": "assets/images/cosmos.jpg",
       "rating": 4.9,
       "reviews":390
