@@ -1,0 +1,55 @@
+{
+  "categories": [
+    { "title": "Fruits", "image": "assets/images/orange.jpg" },
+    { "title": "Snaks", "image": "assets/images/snak.jpg" },
+    { "title": "Cosmotices", "image": "assets/images/cosmos.jpg" },
+    { "title": "Vegitables", "image": "assets/images/veggie.jpg" }
+
+  ],
+  "popular": [
+    { "title": "Oreo", "image": "assets/images/snak.jpg" },
+    { "title": "Orange", "image": "assets/images/orange.jpg" }
+  ],
+  "topProducts": [
+    {
+      "id": 1,
+      "title": "Orange",
+      "description": " Fresh, juicy, and nutrient-rich, fruits are nature’s sweet treats, packed with vitamins and antioxidants for a healthy lifestyle.",
+      "price": 20,
+      "explain": "Fresh And Delicious Fruits",
+      "image": "assets/images/orange.jpg",
+      "rating": 4.5,
+      "reviews":499
+    },
+    {
+      "id": 2,
+      "title": "Oreo",
+      "description": " Quick and convenient bites, snacks are perfect for curbing hunger, ranging from salty to sweet indulgences.",
+      "price": 20,
+      "explain": "Fresh And Delicious Fruits",
+      "image": "assets/images/snak.jpg",
+      "rating": 4.8,
+      "reviews":500
+    },
+    {
+      "id": 3,
+      "title": "veggie",
+      "description": "Crisp, colorful, and full of nutrients, vegetables are essential for a balanced diet and overall well-being.",
+      "price": 20,
+      "explain": "Fresh And Delicious Fruits",
+      "image": "assets/images/veggie.jpg",
+      "rating": 4.7,
+      "reviews":600
+    },
+    {
+      "id": 4,
+      "title": "makeup",
+      "description": "Enhance your natural beauty with vibrant cosmetics, designed to bring confidence and creativity to your look.",
+      "price": 20,
+      "explain": "Fresh And Delicious Fruits",
+      "image": "assets/images/cosmos.jpg",
+      "rating": 4.9,
+      "reviews":390
+    }
+  ]
+}
